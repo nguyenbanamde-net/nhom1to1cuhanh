@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinh học – Trồng cây rau muống</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: lightblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 6px;
+            vertical-align: top;
+        }
+
+        th {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 6px;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figure img {
+            width: 150px;
+        }
+
+        figcaption {
+            font-size: 10px;
+            font-style: italic;
+        }
+
+        p {
+            text-align: justify;
+            margin: 6px 0 0 0;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 6px;
+            font-size: 16px;
+        }
+
+        /* In A4 */
+        @media print {
+            body {
+                margin: 2cm;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">Thí nghiệm 2. Trồng củ hành</div>
+
+    <table>
+        <tr>
+            <th>Đối tượng</th>
+            <th>Điều kiện</th>
+            <th>Kết quả</th>
+            <th>Giải thích</th>
+        </tr>
+
+        <!-- Có phân NPK -->
+        <tr>
+            <td rowspan="2" style="vertical-align: middle; text-align:center;">Củ hành</td>
+            <td style="vertical-align: middle; text-align:center;">Có ánh sáng</td>
+            <td>
+                <div class="image-row">
+                    <figure>
+                        <img src="n1sang.jfif">
+                        <figcaption>Hình 1. Ngày 1</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="n5sang.jpg">
+                        <figcaption>Hình 2. Ngày 5</figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    Ngày 1, củ hành tím bắt đầu nảy mầm, chồi non vừa xuất hiện, còn ngắn và có màu xanh nhạt; rễ mới hình thành, ít và ngắn. Đến ngày 5, chồi phát triển rõ hơn, dài hơn, mọc khá thẳng và có màu xanh lục đậm; hệ rễ tăng cả về số lượng lẫn độ chắc.
+                </p>
+            </td>
+            <td style="vertical-align: middle; text-align:center;">
+                    Cây hành tím trồng trong điều kiện có ánh sáng sinh trưởng ổn định, quang hợp diễn ra bình thường nên cây phát triển tốt và hình thái khá hoàn chỉnh.
+            </td>
+        </tr>
+
+        <!-- Không có phân NPK -->
+        <tr>
+            <td style="vertical-align: middle; text-align:center;">Không có ánh sáng</td>
+            <td>
+                <div class="image-row">
+                    <figure>
+                        <img src="n1toi.jfif">
+                        <figcaption>Hình 1. Ngày 1</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="n5toi.jpg">
+                        <figcaption>Hình 2. Ngày 5</figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    Ngày 1, củ hành tím lớn bắt đầu mọc mầm sớm, mầm to hơn nhưng còn ngắn, màu nhạt, rễ mới hình thành và chưa rõ rệt. Đến ngày 5, chồi phát triển mạnh về chiều dài, thân mềm, hơi cong, màu nhạt; rễ xuất hiện nhiều hơn nhưng yếu, thể hiện sự sinh trưởng chưa cân đối.
+                </p>
+            </td>
+            <td style="vertical-align: middle; text-align:center;">
+                VDo thiếu ánh sáng, quá trình quang hợp bị hạn chế nên cây vươn dài để tìm nguồn sáng. Đây là biểu hiện của thường biến do điều kiện môi trường gây ra.
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
